@@ -151,7 +151,17 @@ body {
     margin-top: 2rem;
     text-align: center;
   }
+  .form {
+    text-align: center;
+    margin: 0 25%;
+  }
   .money {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .logo_text,
+  .contact {
+    margin: 0 25%;
   }
 }
