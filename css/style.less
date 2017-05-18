@@ -1,9 +1,17 @@
-html 	{
-	font-size: 10px;
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-style: 10px;
 }
-body {
-	color: #fff;
-}
+
+  body
+  {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: #fff;
+  }
 .head {
 	background: url(../images/bg.jpg) no-repeat center center;
 	background-size: cover;
@@ -72,50 +80,53 @@ body {
 	max-width: 40rem;
 	background-color: #fff;
 	margin-top: 3rem;
+	text-align: center;
 	p {
 		color: #333;
 		text-align: center;
 		font-size:2.2rem;
 		margin-top: 5rem;
-	}
-	form {
-		text-align: center;
-		
-		.input_name, .input_phone {
-		    color: black;
-			display: block;
-			height: 6rem;
-			width: 24rem;
-			background: rgb(51, 51, 51);
-			float: left;
-			margin: 1rem;
-			margin-left: 5.5rem;
-			border-radius: 5px;
-			text-align: center;
-			i {
-				display: block;
-				float: left;
-				margin: 2rem auto;
-				padding-left: 2.5rem;
-				color: #fff;
-			}
-		}
-		input {
-			width: 20rem;
-			height: 6rem;
-			margin-right: -5rem;
-			padding-left: 1rem;
-		}
-		button {
-			height: 6rem;
-			width: 26.4rem;
-			background-color: rgb(255, 255, 51);
-			color: black;
-			border-radius: 5px;
-			box-shadow: 0 3px 0 rgba(0,0,0,0.4);
-			border: 0;
-		}
 	}	
+
+	.input {
+		display: inline-block;
+		height: 6rem;
+		width: 28rem;
+		margin-bottom: 1.5rem;
+		border: 1px solid black ;
+		border-radius: 5px;
+		.box {
+			display: inline-block;
+			height: 100%;
+			width: 5rem;
+			background-color: rgb(51,51,51);
+			float: left;
+			margin-right: -1rem;
+			border-radius: 4px 0 0 4px;
+			i {
+				margin-top: 40%;
+	         }
+			}
+		input {
+			display: inline-block;
+			height: 100%;
+			width: 22rem;
+			padding-left: 1rem;
+			border: 0;
+			outline: 0;
+			color: black;
+			}
+
+	}
+	button {
+		height: 6rem;
+		width: 28rem;
+		background-color: #ffff33;
+		color: black;
+		border-radius: 5px;
+		box-shadow: 0 3px 0 rgba(0, 0, 0, 0.4);
+		border: 0;
+			}
 }
 	.money {
 		background: url(../images/money.png) no-repeat center center;
@@ -164,4 +175,3 @@ body {
 			margin: 0 25%;
 		}
 }
-

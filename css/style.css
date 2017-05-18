@@ -1,7 +1,13 @@
 html {
-  font-size: 10px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-style: 10px;
 }
 body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
   color: #fff;
 }
 .head {
@@ -72,6 +78,7 @@ body {
   max-width: 40rem;
   background-color: #fff;
   margin-top: 3rem;
+  text-align: center;
 }
 .form p {
   color: #333;
@@ -79,39 +86,38 @@ body {
   font-size: 2.2rem;
   margin-top: 5rem;
 }
-.form form {
-  text-align: center;
-}
-.form form .input_name,
-.form form .input_phone {
-  color: black;
-  display: block;
+.form .input {
+  display: inline-block;
   height: 6rem;
-  width: 24rem;
-  background: #333333;
-  float: left;
-  margin: 1rem;
-  margin-left: 5.5rem;
+  width: 28rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid black ;
   border-radius: 5px;
-  text-align: center;
 }
-.form form .input_name i,
-.form form .input_phone i {
-  display: block;
+.form .input .box {
+  display: inline-block;
+  height: 100%;
+  width: 5rem;
+  background-color: #333333;
   float: left;
-  margin: 2rem auto;
-  padding-left: 2.5rem;
-  color: #fff;
+  margin-right: -1rem;
+  border-radius: 4px 0 0 4px;
 }
-.form form input {
-  width: 20rem;
-  height: 6rem;
-  margin-right: -5rem;
+.form .input .box i {
+  margin-top: 40%;
+}
+.form .input input {
+  display: inline-block;
+  height: 100%;
+  width: 22rem;
   padding-left: 1rem;
+  border: 0;
+  outline: 0;
+  color: black;
 }
-.form form button {
+.form button {
   height: 6rem;
-  width: 26.4rem;
+  width: 28rem;
   background-color: #ffff33;
   color: black;
   border-radius: 5px;
